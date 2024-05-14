@@ -11,7 +11,7 @@ git clone https://github.com/ViktorovGO/test_task.git
 
 ## **2. Перейти в папку проекта:**
 ```
-cd test_tast/
+cd test_task/
 ```
 
 ## **3. Cоздать и активировать виртуальное окружение:**
