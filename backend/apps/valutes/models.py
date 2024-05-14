@@ -9,8 +9,8 @@ class ValuteInfo(models.Model):
         return self.char_code
     
     class Meta:
-        verbose_name = 'Информация о валюте'
-        verbose_name_plural = 'Информация о валютах'
+        verbose_name = 'Валюта'
+        verbose_name_plural = 'Валюты'
         ordering = ['char_code']
 
 class ValuteRateInfo(models.Model):
@@ -19,6 +19,6 @@ class ValuteRateInfo(models.Model):
     value = models.FloatField(verbose_name = 'Курс')
 
     class Meta:
-        verbose_name = 'Информация о курсе валюты'
-        verbose_name_plural = 'Информация о курсе валют'
+        verbose_name = 'Курсы валют'
+        verbose_name_plural = 'Курсы валют'
         ordering = ['currency']
